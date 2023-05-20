@@ -5,19 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NLW SpaceTime</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <small>20 de março de 2023</small>
-    <h1>Jornada do Zero à Primeira Vaga</h1>
-    <img
-      src="./assets/jornada.png"
-      alt="Rodrigo e Mayk apresentando o evento Jornada do Zero à Primeira Vaga"
-    />
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo
-      harum asperiores, voluptas molestias quis ut aperiam expedita praesentium
-      itaque provident consequuntur tempore natus. Ipsa soluta ad aliquid eius
-      optio!
-    </p>
+    <aside class="profile">
+      <img src="./assets/logo.svg" alt="logo do nlw SpaceTime" />
+      <img
+        class="photo-profile"
+        src="./assets/perfil recortado.jpg"
+        alt="foto do dono da capsula do tempo"
+      />
+
+      <p class="profile-title">
+        Cápsula do tempo de <br />
+        <strong>Ricardo Nozaki</strong>
+      </p>
+      <p class="profile-footer">Feito com 💜 no NLW da Rocketseat</p>
+    </aside>
+    <div class="timeline">
+      <div class="event-card">
+        <small class="date">20 de março de 2023</small>
+        <h1 class="title-card">Jornada do Zero à Primeira Vaga</h1>
+        <div class="image-container">
+          <img
+            class="image-event"
+            src="./assets/jornada.png"
+            alt="Rodrigo e Mayk apresentando o evento Jornada do Zero à Primeira Vaga"
+          />
+        </div>
+        <p class="text-event">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          explicabo harum asperiores, voluptas molestias quis ut aperiam
+          expedita praesentium itaque provident consequuntur tempore natus. Ipsa
+          soluta ad aliquid eius optio!
+        </p>
+      </div>
+      <div class="event-card">
+        <small class="date">01 de Dezembro, 2022</small>
+        <h1 class="title-card">DoWhile 2022</h1>
+        <div class="image-container">
+          <img
+            class="image-event"
+            src="./assets/FABI8008 1.png"
+            alt="Participantes do evento DoWhile 2022"
+          />
+        </div>
+        <p class="text-event">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          explicabo harum asperiores, voluptas molestias quis ut aperiam
+          expedita praesentium itaque provident consequuntur tempore natus. Ipsa
+          soluta ad aliquid eius optio!
+        </p>
+      </div>
+    </div>
   </body>
 </html>
