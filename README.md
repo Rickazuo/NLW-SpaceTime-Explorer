@@ -6,6 +6,8 @@
 
 Esse é um projeto Web Responsivo de uma cápsula do tempo para exibir memórias em uma linha do tempo.
 
+_<h2 align="center" ><a href="https://rickazuo.github.io/NLW-SpaceTime-Explorer/" target="_blank">Visite o projeto online</a></h2>_
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido durante o NLW da Rocketseat com as seguintes tecnologias:
