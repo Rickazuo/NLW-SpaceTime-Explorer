@@ -16,6 +16,6 @@ Esse projeto foi desenvolvido durante o NLW da Rocketseat com as seguintes tecno
 
 ## 🏷️ Layout
 
-Você pode visualizar o layoout do projeto através
+Você pode visualizar o layout do projeto através
 [desse link](https://www.figma.com/file/xllhBAkuLVflqR1WB9SzTj/Capsula-do-Tempo---Trilha-Explorer?type=design&node-id=306%3A3&t=l2mqywaCaALXnqil-1).
 É necessário ter uma conta no [Figma](https://www.figma.com)
